@@ -30,7 +30,7 @@ const Dashboard = () => {
     const userLinks = () => {
         return (
             <div className="card">
-                <h4 className="card-header">Navegacion de usuario</h4>
+                <h4 className="card-header">Navegación de usuario</h4>
                 <ul className="list-group">
                     <li className="list-group-item">
                         <Link className="nav-link" to="/cart">
@@ -50,7 +50,7 @@ const Dashboard = () => {
     const userInfo = () => {
         return (
             <div className="card mb-5">
-                <h3 className="card-header">Informacion de usuario</h3>
+                <h3 className="card-header">Información de usuario</h3>
                 <ul className="list-group">
                     <li className="list-group-item">{name}</li>
                     <li className="list-group-item">{email}</li>

@@ -125,7 +125,7 @@ const NewProduct = () => {
           </div>
           <p className="text-danger">{errors.price && errors.price.message}</p>
           <div className="form-group">
-            <label className="text-muted">Categoria</label>
+            <label className="text-muted">Categoría</label>
             <select
               name="category"
               ref={register({

@@ -50,7 +50,7 @@ const Signup = () => {
             </div>
 
             <div className="form-group">
-                <label className="text-muted">Contrase;a</label>
+                <label className="text-muted">Contraseña</label>
                 <input onChange={handleChange('password')} type="password" className="form-control" value={password} />
             </div>
             <button onClick={clickSubmit} className="btn btn-primary">
