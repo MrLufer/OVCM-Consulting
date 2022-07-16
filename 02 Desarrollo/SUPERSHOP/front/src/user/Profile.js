@@ -71,7 +71,7 @@ const Profile = ({ match }) => {
                 <input type="email" onChange={handleChange('email')} className="form-control" value={email} />
             </div>
             <div className="form-group">
-                <label className="text-muted">Contrase;a</label>
+                <label className="text-muted">Contraseña</label>
                 <input type="password" onChange={handleChange('password')} className="form-control" value={password} />
             </div>
 

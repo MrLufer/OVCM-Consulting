@@ -49,7 +49,7 @@ const Signin = () => {
             </div>
 
             <div className="form-group">
-                <label className="text-muted">Contrase;a</label>
+                <label className="text-muted">Contraseña</label>
                 <input
                     onChange={handleChange("password")}
                     type="password"
