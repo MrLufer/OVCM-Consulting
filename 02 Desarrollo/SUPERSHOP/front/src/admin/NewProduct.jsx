@@ -75,7 +75,7 @@ const NewProduct = () => {
   return (
     <Layout
       title="Add a new product"
-      description={`G'day ${user.name}, ready to add a new product?`}
+      description={`Buen dia  ${user.name}, ready to add a new product?`}
     >
       <form autoComplete="off" onSubmit={handleSubmit(addItem)}>
         <div className="p-5">

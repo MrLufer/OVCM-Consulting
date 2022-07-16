@@ -41,7 +41,7 @@ const AdminDashboard = () => {
     const adminInfo = () => {
         return (
             <div className="card mb-5">
-                <h3 className="card-header">User Information</h3>
+                <h3 className="card-header">Informacion de usuario</h3>
                 <ul className="list-group">
                     <li className="list-group-item">{name}</li>
                     <li className="list-group-item">{email}</li>
@@ -56,7 +56,7 @@ const AdminDashboard = () => {
     return (
         <Layout
             title="Dashboard"
-            description={`G'day ${name}!`}
+            description={`Buen dia  ${name}!`}
             className="container-fluid"
         >
             <div className="row">

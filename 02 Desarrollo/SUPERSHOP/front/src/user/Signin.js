@@ -39,7 +39,7 @@ const Signin = () => {
     const signUpForm = () => (
         <form>
             <div className="form-group">
-                <label className="text-muted">Email</label>
+                <label className="text-muted">Correo</label>
                 <input
                     onChange={handleChange("email")}
                     type="email"
@@ -49,7 +49,7 @@ const Signin = () => {
             </div>
 
             <div className="form-group">
-                <label className="text-muted">Password</label>
+                <label className="text-muted">Contrase;a</label>
                 <input
                     onChange={handleChange("password")}
                     type="password"
@@ -58,7 +58,7 @@ const Signin = () => {
                 />
             </div>
             <button onClick={clickSubmit} className="btn btn-primary">
-                Submit
+                Ingresar
             </button>
         </form>
     );

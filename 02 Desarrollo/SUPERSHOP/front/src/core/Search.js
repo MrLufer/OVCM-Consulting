@@ -87,7 +87,7 @@ const Search = () => {
                             className="btn mr-2"
                             onChange={handleChange("category")}
                         >
-                            <option value="All">All</option>
+                            <option value="All">Todos</option>
                             {categories.map((c, i) => (
                                 <option key={i} value={c._id}>
                                     {c.name}
@@ -107,7 +107,7 @@ const Search = () => {
                     className="btn input-group-append"
                     style={{ border: "none" }}
                 >
-                    <button className="input-group-text">Search</button>
+                    <button className="input-group-text">Buscar</button>
                 </div>
             </span>
         </form>
