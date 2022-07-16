@@ -97,7 +97,7 @@ const Shop = () => {
 
     return (
         <Layout
-            title="Shop Page"
+            title="Tienda"
             description="OVCM"
             className="container-fluid"
         >

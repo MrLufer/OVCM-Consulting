@@ -20,7 +20,7 @@ const Menu = ({ history }) => (
                     style={isActive(history, "/")}
                     to="/"
                 >
-                    Home
+                    Inicio
                 </Link>
             </li>
 
@@ -30,7 +30,7 @@ const Menu = ({ history }) => (
                     style={isActive(history, "/shop")}
                     to="/shop"
                 >
-                    Shop
+                    Tienda
                 </Link>
             </li>
 
@@ -40,7 +40,7 @@ const Menu = ({ history }) => (
                     style={isActive(history, "/cart")}
                     to="/cart"
                 >
-                    Cart{" "}
+                    Carrito{" "}
                     <sup>
                         <small className="cart-badge">{itemTotal()}</small>
                     </sup>

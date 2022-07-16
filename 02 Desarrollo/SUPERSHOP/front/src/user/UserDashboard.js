@@ -30,16 +30,16 @@ const Dashboard = () => {
     const userLinks = () => {
         return (
             <div className="card">
-                <h4 className="card-header">User Links</h4>
+                <h4 className="card-header">Navegacion de usuario</h4>
                 <ul className="list-group">
                     <li className="list-group-item">
                         <Link className="nav-link" to="/cart">
-                            My Cart
+                            Mi carrito
                         </Link>
                     </li>
                     <li className="list-group-item">
                         <Link className="nav-link" to={`/profile/${_id}`}>
-                            Update Profile
+                            Actualizar perfil
                         </Link>
                     </li>
                 </ul>
@@ -50,7 +50,7 @@ const Dashboard = () => {
     const userInfo = () => {
         return (
             <div className="card mb-5">
-                <h3 className="card-header">User Information</h3>
+                <h3 className="card-header">Informacion de usuario</h3>
                 <ul className="list-group">
                     <li className="list-group-item">{name}</li>
                     <li className="list-group-item">{email}</li>
@@ -65,7 +65,7 @@ const Dashboard = () => {
     const purchaseHistory = history => {
         return (
             <div className="card mb-5">
-                <h3 className="card-header">Purchase history</h3>
+                <h3 className="card-header">Historial de Ventas</h3>
                 <ul className="list-group">
                     <li className="list-group-item">
                         {history.map((h, i) => {
@@ -100,7 +100,7 @@ const Dashboard = () => {
     return (
         <Layout
             title="Dashboard"
-            description={`G'day ${name}!`}
+            description={`Buen dia  ${name}!`}
             className="container-fluid"
         >
             <div className="row">
