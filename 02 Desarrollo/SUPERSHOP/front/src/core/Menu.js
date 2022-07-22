@@ -106,7 +106,7 @@ const Menu = ({ history }) => (
                             })
                         }
                     >
-                        Signout
+                        Desconectarse
                     </span>
                 </li>
             )}
