@@ -15,7 +15,7 @@ const AdminDashboard = () => {
                 <ul className="list-group">
                     <li className="list-group-item">
                         <Link className="nav-link" to="/create/category">
-                            Create Category
+                            Crear Categoría
                         </Link>
                     </li>
                     <li className="list-group-item">
