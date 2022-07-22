@@ -5,8 +5,8 @@ import { signin, authenticate, isAuthenticated } from "../auth";
 
 const Signin = () => {
     const [values, setValues] = useState({
-        email: "ryan@gmail.com",
-        password: "rrrrrr9",
+        email: "",
+        password: "",
         error: "",
         loading: false,
         redirectToReferrer: false
@@ -39,7 +39,7 @@ const Signin = () => {
     const signUpForm = () => (
         <form>
             <div className="form-group">
-                <label className="text-muted">Email</label>
+                <label className="text-muted">Correo</label>
                 <input
                     onChange={handleChange("email")}
                     type="email"
@@ -49,7 +49,7 @@ const Signin = () => {
             </div>
 
             <div className="form-group">
-                <label className="text-muted">Password</label>
+                <label className="text-muted">Contrase;a</label>
                 <input
                     onChange={handleChange("password")}
                     type="password"
@@ -58,7 +58,7 @@ const Signin = () => {
                 />
             </div>
             <button onClick={clickSubmit} className="btn btn-primary">
-                Submit
+                Ingresar
             </button>
         </form>
     );
@@ -95,7 +95,7 @@ const Signin = () => {
     return (
         <Layout
             title="Signin"
-            description="Signin to Node React E-commerce App"
+            description="OVCM SUPERSHOP"
             className="container col-md-8 offset-md-2"
         >
             {showLoading()}
