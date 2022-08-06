@@ -4,7 +4,7 @@
   "description": "Super-shop-market",
   "main": "index.js",
   "scripts": {
-    "start": "cd 02DesarrolloSUPERSHOP\back && node app.js"
+    "start": "cd 02Desarrollo && cd SUPERSHOP && cd back  && node app.js"
   },
   "keywords": [],
   "author": "",
