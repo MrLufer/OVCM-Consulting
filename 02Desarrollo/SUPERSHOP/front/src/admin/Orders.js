@@ -124,7 +124,7 @@ const Orders = () => {
                                         Transaction ID: {o.transaction_id}
                                     </li>
                                     <li className="list-group-item">
-                                        Amount: ${o.amount}
+                                        Monto: ${o.amount}
                                     </li>
                                     <li className="list-group-item">
                                         Ordered by: {o.user.name}
