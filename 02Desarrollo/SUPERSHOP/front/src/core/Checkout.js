@@ -50,7 +50,7 @@ const Checkout = ({ products, setRun = (f) => f, run = undefined }) => {
   };
 
   let deliveryAddress = data.address;
-
+    console.log(data)
   const buy = () => {
     setData({ loading: true });
 
