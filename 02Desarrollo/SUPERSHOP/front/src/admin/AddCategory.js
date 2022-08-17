@@ -51,20 +51,20 @@ const AddCategory = () => {
 
     const showSuccess = () => {
         if (success) {
-            return <h3 className="text-success">{name} is created</h3>;
+            return <h3 className="text-success">{name}, se creó con éxito</h3>;
         }
     };
 
     const showError = () => {
         if (error) {
-            return <h3 className="text-danger">Category should be unique</h3>;
+            return <h3 className="text-danger">La categoría debe ser única</h3>;
         }
     };
 
     const goBack = () => (
         <div className="mt-5">
             <Link to="/admin/dashboard" className="text-warning">
-                Back to Dashboard
+                Volver al Dashboard
             </Link>
         </div>
     );
