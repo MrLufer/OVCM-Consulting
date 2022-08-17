@@ -76,12 +76,12 @@ const Orders = () => {
 
     const showStatus = o => (
         <div className="form-group">
-            <h3 className="mark mb-4">Status: {o.status}</h3>
+            <h3 className="mark mb-4">Estado: {o.status}</h3>
             <select
                 className="form-control"
                 onChange={e => handleStatusChange(e, o._id)}
             >
-                <option>Update Status</option>
+                <option>Actualizar estado</option>
                 {statusValues.map((status, index) => (
                     <option key={index} value={status}>
                         {status}
@@ -124,7 +124,7 @@ const Orders = () => {
                                         Transaction ID: {o.transaction_id}
                                     </li>
                                     <li className="list-group-item">
-                                        Amount: ${o.amount}
+                                        Monto: ${o.amount}
                                     </li>
                                     <li className="list-group-item">
                                         Ordered by: {o.user.name}
