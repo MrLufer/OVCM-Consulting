@@ -42,7 +42,7 @@ const ManageProducts = () => {
             <div className="row">
                 <div className="col-12">
                     <h2 className="text-center">
-                        Total {products.length} products
+                        Productos en total: {products.length}
                     </h2>
                     <hr />
                     <ul className="list-group">
@@ -54,14 +54,14 @@ const ManageProducts = () => {
                                 <strong>{p.name}</strong>
                                 <Link to={`/admin/product/update/${p._id}`}>
                                     <span className="badge badge-warning badge-pill">
-                                        Update
+                                        Actualizar
                                     </span>
                                 </Link>
                                 <span
                                     onClick={() => destroy(p._id)}
                                     className="badge badge-danger badge-pill"
                                 >
-                                    Delete
+                                    Eliminar
                                 </span>
                             </li>
                         ))}
